@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum enum1.FreshJuice",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setToLarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enumurated.sol": "enum1"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enumurated.sol": {
+			"keccak256": "0x48bb576f411d7ad3ce83ecac0713221410d1b446c1a3d314e87db0a04c6ece50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a190bd4d5b46dbe20a4c9b90411fd9344940829af89e4f4345e1347461f30494",
+				"dweb:/ipfs/QmYMFs5qjhKVpudJYrXsQUtcAAEDZ5x6bJpQBg9gQF4Nui"
+			]
+		}
+	},
+	"version": 1
+}

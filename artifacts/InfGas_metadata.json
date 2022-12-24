@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "runForever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/InfGas.sol": "InfGas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/InfGas.sol": {
+			"keccak256": "0x8dfa66ec417a887802ec686f57c4e256c109c19f6c60116f2de7950550953ca4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a4dd701cbe679700bd9e397f6b0e00902a6933f5b2d8f47ffe6ecf4d928bae5",
+				"dweb:/ipfs/QmXWnuHfFRdfHjuePU5Xw3ZmbHkAgVB5jTCNBKPmCA3jFL"
+			]
+		}
+	},
+	"version": 1
+}

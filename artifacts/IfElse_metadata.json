@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "max",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IfElse.sol": "IfElse"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IfElse.sol": {
+			"keccak256": "0x458a0764575d646b2e113e5ebade6c57fbf06fb859121ab6afb0112ac2e8b7ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28990690bffde5b3cfd584f6e8b04e12243198114abb5b3452a15e1809f405ea",
+				"dweb:/ipfs/QmQHU8mzxJAQzZpFXkDgmZ1kMC99CCi62WGEepkeCxZ7Dg"
+			]
+		}
+	},
+	"version": 1
+}

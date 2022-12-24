@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enumurated.sol": "Enum1"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enumurated.sol": {
+			"keccak256": "0xb51f642d6a43f85f41ac1fcfae5b68b4d80eabe630e8017661f28d2c161d27c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e116e099d6feb47b0ebf269074be6c99a5123eb8655c7f880d68e7e093db92f",
+				"dweb:/ipfs/QmZXoYWg8p8hNiVnh1UknQtoyN7oBmVjzHqK8SfGNnsfqW"
+			]
+		}
+	},
+	"version": 1
+}
