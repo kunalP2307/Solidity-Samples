@@ -13,11 +13,24 @@ contract Account{
     }
 
     function addBalance(uint ammount) public {
+        
+        // when input is comming from outside use require or revert()
+        // it will refund the gas remaining
         require(msg.sender == owner, "You don't have previllages");
+        
+        // use assert for internal checking
+        // may not revert the remaining gas
+        uint a = 12;
+        uint b = 2;
+        uint c = a + a;
+    
+        assert(c == 14);
+        
         balAccMap[msg.sender] += ammount;
     } 
 
     function getBalance() public view returns(uint){
+
         return balAccMap[msg.sender];
     }
 
